@@ -1,0 +1,21 @@
+{
+  "name": "node-where",
+  "version": "1.0.0",
+  "description": "Locate executable paths with OS-specific command line tools. Where on Windows, Which on Unix",
+  "main": "where.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^7.1.2"
+  },
+  "scripts": {
+    "cover": "tap test/*.js --cov --coverage-report=lcov",
+    "start": "node sample.js",
+    "test": "tap test/*.js"
+  },
+  "keywords": ["where", "which", "exe", "find-exe"],
+  "author": "Marc Walter <walter.marc@outlook.com>",
+  "license": "UNLICENSE"
+}
